@@ -1,0 +1,39 @@
+{
+  "name": "sharpie",
+  "version": "0.1.0",
+  "description": "CLI for manipulating images with sharp",
+  "main": "bin/index.js",
+  "bin": {
+    "sharpie": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamianRivas/sharpie.git"
+  },
+  "keywords": [
+    "cli",
+    "image",
+    "sharp",
+    "jpg",
+    "jpeg",
+    "webp",
+    "png",
+    "resize",
+    "crop",
+    "thumbnail"
+  ],
+  "author": "Damian Rivas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamianRivas/sharpie/issues"
+  },
+  "homepage": "https://github.com/DamianRivas/sharpie#readme",
+  "dependencies": {
+    "sharp": "^0.29.0",
+    "yargs": "^17.1.1"
+  }
+}
