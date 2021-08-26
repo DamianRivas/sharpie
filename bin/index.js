@@ -30,11 +30,13 @@ const options = yargs
     alias: "input",
     desc: "Input image file path",
     demandOption: true,
+    type: "string",
   })
   .option("o", {
     alias: "output",
     desc: "Output image file path",
     demandOption: true,
+    type: "string",
   }).argv;
 
 const sharpOptions = {
