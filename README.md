@@ -21,3 +21,5 @@ Clone this repository somewhere.
 `cd` into the cloned folder.
 
 run `npm i -g`
+
+run `sharpie`
