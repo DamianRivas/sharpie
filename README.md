@@ -14,12 +14,14 @@ Usage: sharpie <input> <width> [aspect|height] <output>
 
 ## Installation
 
-Node.js is required to run Sharpie.
+> Node.js is required to run Sharpie.
 
-Clone this repository somewhere.
+Clone this repository somewhere in your computer.
 
 `cd` into the cloned folder.
 
-run `npm i -g`
+Install the dependencies, run: `npm i`
+
+Install sharpie globally, run: `npm i -g`
 
 run `sharpie`
